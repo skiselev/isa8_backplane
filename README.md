@@ -74,7 +74,7 @@ Component type     | Reference | Description                       | Quantity | 
 PCB                |           | ISA 8-bit Backplane PCB - Version 1.0  | 1   | Refer to the [RetroBrew Computers Board Inventory](https://retrobrewcomputers.org/doku.php?id=boardinventory#xi_8088_project_sergey_kiselev) page for ordering information, or order from a PCB manufacturer of your choice using provided Gerber or KiCad files
 Integrated Circuit | U1        | 74HCT74, DIP-14 package           | 1        | Mouser [595-SN74AHCT74N](https://www.mouser.com/ProductDetail/595-SN74AHCT74N)
 Integrated Circuit | U2        | 74HCT14, DIP-14 package           | 1        | Mouser [595-SN74AHCT14N](https://www.mouser.com/ProductDetail/595-SN74AHCT14N)
-Integrated Circuit | U2        | LM7905C -5V voltage regulator     | 1        | Mouser [512-LM7905CT](https://www.mouser.com/ProductDetail/512-LM7905CT)
+Integrated Circuit | U3        | LM7905C -5V voltage regulator     | 1        | Mouser [512-LM7905CT](https://www.mouser.com/ProductDetail/512-LM7905CT)
 IC Socket          | U1, U2    | DIP-14, 300 mil socket            | 2        | Mouser [517-4814-3000-CP](https://www.mouser.com/ProductDetail/517-4814-3000-CP)
 LED                | D1        | 3 mm, blue LED indicator          | 1        | Mouser [696-SSL-LX3054USBD](https://www.mouser.com/ProductDetail/696-SSL-LX3054USBD)
 LED                | D2        | 3 mm, bi-color red/green LED indicator | 1   | Mouser [696-SSL-LX3054IGW](https://www.mouser.com/ProductDetail/696-SSL-LX3054IGW)
