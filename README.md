@@ -9,11 +9,13 @@ processor board, and the 8-bit ISA cards that I've designed:
 [XT-CF-Lite](http://www.malinov.com/Home/sergeys-projects/xt-cf-lite),
 [ISA OPL2](http://www.malinov.com/Home/sergeys-projects/isa-opl2-card).
 
+![ISA 8-bit Backplane V1.0 Assembled Board](images/ISA8_Backplane_Assembled_Board-1.0.jpg)
+
 ## Specifications
 * 7 ISA 8-bit (62 pin) slots
 * ATX power supply connector, and ATX power control circuit
 * Bi-color activity LED, that changes the color when the processor is executing the code (the color changes every time A7 address line changes its value)
-* The form factor is (mostly) compatible with ATX cases
+* The form factor is (mostly) compatible with ATX / Micro ATX
 * Pads for optional termination resistors
 
 ## Hardware Documentation
