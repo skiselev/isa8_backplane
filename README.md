@@ -66,24 +66,28 @@ Press SW1 to turn power on or off. The SW1 is connected in parallel with P2
 ### Bill of Materials - Version 1.0
 
 [ISA 8-bit Backplane project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9a09040b52) - View and order all components except of the Faraday FE2010A chipset, and the PCB.
+
 [ISA 8-bit Backplane project on OSH Park](https://oshpark.com/shared_projects/Y8dcyt5m) - View and order the PCB.
 
 Component type     | Reference | Description                       | Quantity | Possible sources and notes 
 ------------------ | --------- | --------------------------------- | -------- | --------------------------
 PCB                |           | ISA 8-bit Backplane PCB - Version 1.0  | 1   | Refer to the [RetroBrew Computers Board Inventory](https://retrobrewcomputers.org/doku.php?id=boardinventory#xi_8088_project_sergey_kiselev) page for ordering information, or order from a PCB manufacturer of your choice using provided Gerber or KiCad files
-Integrated Circuit | U1        | 74HCT74, DIP-14 package           | 1        | Mouser
-Integrated Circuit | U2        | 74HCT14, DIP-14 package           | 1        | Mouser
-LED                | D1        | 3 mm, blue LED indicator          | 1        | Mouser
-LED                | D2        | 3 mm, bi-color red/green LED indicator | 1   | Mouser
-Diode              | D3, D4    | 1N4148                            | 2        | Mouser [512-1N4148](https://www.mouser.com/Search/ProductDetail.aspx?R=1N4148virtualkey51210000virtualkey512-1N4148)
-Tactile Button     | SW1       | 6 mm tactile button, straight     | 1        | Mouser
-Connector          | P1        | 20 pin ATX power connector        | 1        | Mouser
-Connector          | P2, P3    | 4 pin header, 2.54 mm pitch       | 2        | Mouser [649-68002-104HLF](https://www.mouser.com/Search/ProductDetail.aspx?R=68002-104HLFvirtualkey64910000virtualkey649-68002-104HLF)
-Connector          | BUS1-BUS7 | 62 pin card edge connector, 2.54 mm pitch | 7 | Mouser
-Capacitor          | C1 - C19  | 10 uF, MLCC, 5 mm lead spacing    | 19       | Mouser [810-FG24X7R1A106KRT0](https://www.mouser.com/Search/ProductDetail.aspx?R=FG24X7R1A106KRT00virtualkey52130000virtualkey810-FG24X7R1A106KRT0)
-Capacitor          | C20       | 1 uF, MLCC, 5 mm lead spacing     | 1        | Mouser
-Capacitor          | C21, C22  | 0.1 uF, MLCC, 5 mm lead spacing   | 2        | Mouser [594-K104K15X7RF53H5](https://www.mouser.com/Search/ProductDetail.aspx?R=K104K15X7RF53H5virtualkey59420000virtualkey594-K104K15X7RF53H5)
-Resistor           | R1, R2    | 10 kohm, through hole             | 2        | Mouser [291-10K-RC](https://www.mouser.com/Search/ProductDetail.aspx?R=291-10K-RCvirtualkey21980000virtualkey291-10K-RC)
-Resistor           | R3        | 1 kohm, through hole              | 1        | Mouser [291-1K-RC](https://www.mouser.com/Search/ProductDetail.aspx?R=291-1K-RCvirtualkey21980000virtualkey291-1K-RC)
-Resistor           | R4 - R7   | 470 ohm, through hole             | 2        | Mouser [291-470-RC](https://www.mouser.com/Search/ProductDetail.aspx?R=291-470-RCvirtualkey21980000virtualkey291-470-RC)
+Integrated Circuit | U1        | 74HCT74, DIP-14 package           | 1        | Mouser [595-SN74AHCT74N](https://www.mouser.com/ProductDetail/595-SN74AHCT74N)
+Integrated Circuit | U2        | 74HCT14, DIP-14 package           | 1        | Mouser [595-SN74AHCT14N](https://www.mouser.com/ProductDetail/595-SN74AHCT14N)
+Integrated Circuit | U2        | LM7905C -5V voltage regulator     | 1        | Mouser [512-LM7905CT](https://www.mouser.com/ProductDetail/512-LM7905CT)
+IC Socket          | U1, U2    | DIP-14, 300 mil socket            | 2        | Mouser [517-4814-3000-CP](https://www.mouser.com/ProductDetail/517-4814-3000-CP)
+LED                | D1        | 3 mm, blue LED indicator          | 1        | Mouser [696-SSL-LX3054USBD](https://www.mouser.com/ProductDetail/696-SSL-LX3054USBD)
+LED                | D2        | 3 mm, bi-color red/green LED indicator | 1   | Mouser [696-SSL-LX3054IGW](https://www.mouser.com/ProductDetail/696-SSL-LX3054IGW)
+Diode              | D3, D4    | 1N4148                            | 2        | Mouser [512-1N4148](https://www.mouser.com/ProductDetail/512-1N4148)
+Tactile Button     | SW1       | 6 mm tactile button, straight     | 1        | Mouser [653-B3F-1000](https://www.mouser.com/ProductDetail/653-B3F-1000)
+Connector          | P1        | 20 pin ATX power connector        | 1        | Mouser [538-46015-2006](https://www.mouser.com/ProductDetail/538-46015-2006)
+Connector          | P2, P3    | 4 pin header, 2.54 mm pitch       | 2        | Mouser [649-68002-104HLF](https://www.mouser.com/ProductDetail/649-68002-104HLF)
+Connector          | BUS1-BUS7 | 62 pin card edge connector, 2.54 mm pitch | 7 | Mouser [571-6-5530843-5](https://www.mouser.com/ProductDetail/571-6-5530843-5)
+Capacitor          | C1 - C19  | 10 uF, MLCC, 5 mm lead spacing    | 19       | Mouser [810-FG24X7R1A106KRT0](https://www.mouser.com/ProductDetail/810-FG24X7R1A106KRT0)
+Capacitor          | C20       | 1 uF, MLCC, 5 mm lead spacing     | 1        | Mouser [810-FG28X5R1H105KRT0](https://www.mouser.com/ProductDetail/810-FG28X5R1H105KRT0)
+Capacitor          | C21, C22  | 0.1 uF, MLCC, 5 mm lead spacing   | 2        | Mouser [594-K104K15X7RF53H5](https://www.mouser.com/ProductDetail/594-K104K15X7RF53H5)
+Resistor           | R1, R2    | 10 kohm, through hole             | 2        | Mouser [291-10K-RC](https://www.mouser.com/ProductDetail/291-10K-RC)
+Resistor           | R3        | 1 kohm, through hole              | 1        | Mouser [291-1K-RC](https://www.mouser.com/ProductDetail/291-1K-RC)
+Resistor           | R4 - R7   | 470 ohm, through hole             | 2        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC)
 Resistor Array     | RR1 - RR5 | do not populate                   |          | Optional, should not be populated
+
