@@ -83,7 +83,7 @@ Tactile Button     | SW1       | 6 mm tactile button, straight     | 1        | 
 Connector          | P1        | 20 pin ATX power connector        | 1        | Mouser [538-46015-2006](https://www.mouser.com/ProductDetail/538-46015-2006)
 Connector          | P2, P3    | 4 pin header, 2.54 mm pitch       | 2        | Mouser [649-68002-104HLF](https://www.mouser.com/ProductDetail/649-68002-104HLF)
 Connector          | BUS1-BUS7 | 62 pin card edge connector, 2.54 mm pitch | 7 | Mouser [571-6-5530843-5](https://www.mouser.com/ProductDetail/571-6-5530843-5)
-Capacitor          | C1 - C19  | 10 uF, MLCC, 5 mm lead spacing    | 19       | Mouser [810-FG24X7R1A106KRT0](https://www.mouser.com/ProductDetail/810-FG24X7R1A106KRT0)
+Capacitor          | C1 - C19  | 10 uF, 16V, MLCC, 5 mm lead spacing    | 19       | Mouser [810-FG28X5R1E106MR06](https://www.mouser.com/ProductDetail/810-FG28X5R1E106MR06)
 Capacitor          | C20       | 1 uF, MLCC, 5 mm lead spacing     | 1        | Mouser [810-FG28X5R1H105KRT0](https://www.mouser.com/ProductDetail/810-FG28X5R1H105KRT0)
 Capacitor          | C21, C22  | 0.1 uF, MLCC, 5 mm lead spacing   | 2        | Mouser [594-K104K15X7RF53H5](https://www.mouser.com/ProductDetail/594-K104K15X7RF53H5)
 Resistor           | R1, R2    | 10 kohm, through hole             | 2        | Mouser [291-10K-RC](https://www.mouser.com/ProductDetail/291-10K-RC)
