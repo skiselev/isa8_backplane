@@ -65,7 +65,7 @@ Press SW1 to turn power on or off. The SW1 is connected in parallel with P2
 
 ### Bill of Materials - Version 1.0
 
-[ISA 8-bit Backplane project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9a09040b52) - View and order all components except of the Faraday FE2010A chipset, and the PCB.
+[ISA 8-bit Backplane project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9a09040b52) - View and order all components except of the PCB.
 
 [ISA 8-bit Backplane project on OSH Park](https://oshpark.com/shared_projects/Y8dcyt5m) - View and order the PCB.
 
