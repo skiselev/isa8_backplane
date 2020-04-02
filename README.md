@@ -88,6 +88,6 @@ Capacitor          | C20       | 1 uF, MLCC, 5 mm lead spacing     | 1        | 
 Capacitor          | C21, C22  | 0.1 uF, MLCC, 5 mm lead spacing   | 2        | Mouser [594-K104K15X7RF53H5](https://www.mouser.com/ProductDetail/594-K104K15X7RF53H5)
 Resistor           | R1, R2    | 10 kohm, through hole             | 2        | Mouser [291-10K-RC](https://www.mouser.com/ProductDetail/291-10K-RC)
 Resistor           | R3        | 1 kohm, through hole              | 1        | Mouser [291-1K-RC](https://www.mouser.com/ProductDetail/291-1K-RC)
-Resistor           | R4 - R7   | 470 ohm, through hole             | 2        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC)
+Resistor           | R4 - R7   | 470 ohm, through hole             | 4        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC)
 Resistor Array     | RR1 - RR5 | do not populate                   |          | Optional, should not be populated
 
